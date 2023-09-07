@@ -1,0 +1,84 @@
+.container {
+    width: 50%;
+    padding: 10px;
+    margin: 17px auto;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 5px;
+}
+
+form {
+    width: 95%;
+    margin: auto;
+    align-content: center;
+}
+
+.radio {
+    margin: 10px 8px;
+}
+
+.gender {
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: large;
+  margin: 3px;
+    display: inline-block;
+
+}
+
+label {
+    font-size: small;
+    color: orange;
+    font-weight: bold;
+    padding: 12px;
+    margin: 5px;
+
+}
+
+#email, #name, #phone, #date, .district, #specilization {
+    margin: 6px 5px;
+    width: 100px;
+    display: block;
+    width: 90%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid orange;
+
+
+}
+
+
+#spam {
+    color: green;
+    font-size: x-small;
+    font-weight: 800;
+    display: block;
+    width: 90%;
+    text-align: end;
+}
+
+.form-group {
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.district {
+    padding: 18px;
+    margin: auto 10px;
+}
+.btn{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    cursor: pointer;
+    margin:20px auto;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+.btn:hover{
+    background-color: rgb(247, 119, 14);
+}
